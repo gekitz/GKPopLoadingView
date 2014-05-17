@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B4ABDD19279D7E00045CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABDC19279D7E00045CD3 /* Foundation.framework */; };
+		C1B4ABDF19279D7E00045CD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */; };
+		C1B4ABE119279D7E00045CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABE019279D7E00045CD3 /* UIKit.framework */; };
+		C1B4ABE719279D7E00045CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1B4ABE519279D7E00045CD3 /* InfoPlist.strings */; };
+		C1B4ABE919279D7E00045CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4ABE819279D7E00045CD3 /* main.m */; };
+		C1B4ABED19279D7E00045CD3 /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4ABEC19279D7E00045CD3 /* GKAppDelegate.m */; };
+		C1B4ABF019279D7E00045CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B4ABEE19279D7E00045CD3 /* Main.storyboard */; };
+		C1B4ABF319279D7E00045CD3 /* GKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4ABF219279D7E00045CD3 /* GKViewController.m */; };
+		C1B4ABF519279D7F00045CD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B4ABF419279D7F00045CD3 /* Images.xcassets */; };
+		C1B4ABFC19279D7F00045CD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABFB19279D7F00045CD3 /* XCTest.framework */; };
+		C1B4ABFD19279D7F00045CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABDC19279D7E00045CD3 /* Foundation.framework */; };
+		C1B4ABFE19279D7F00045CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABE019279D7E00045CD3 /* UIKit.framework */; };
+		C1B4AC0619279D7F00045CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1B4AC0419279D7F00045CD3 /* InfoPlist.strings */; };
+		C1B4AC0819279D7F00045CD3 /* GKLoadingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4AC0719279D7F00045CD3 /* GKLoadingViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B4ABFF19279D7F00045CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B4ABD119279D7E00045CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B4ABD819279D7E00045CD3;
+			remoteInfo = GKLoadingViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B4ABD919279D7E00045CD3 /* GKLoadingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKLoadingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B4ABDC19279D7E00045CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1B4ABE019279D7E00045CD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1B4ABE419279D7E00045CD3 /* GKLoadingViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKLoadingViewDemo-Info.plist"; sourceTree = "<group>"; };
+		C1B4ABE619279D7E00045CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1B4ABE819279D7E00045CD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1B4ABEA19279D7E00045CD3 /* GKLoadingViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKLoadingViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C1B4ABEB19279D7E00045CD3 /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
+		C1B4ABEC19279D7E00045CD3 /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
+		C1B4ABEF19279D7E00045CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B4ABF119279D7E00045CD3 /* GKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKViewController.h; sourceTree = "<group>"; };
+		C1B4ABF219279D7E00045CD3 /* GKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKViewController.m; sourceTree = "<group>"; };
+		C1B4ABF419279D7F00045CD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1B4ABFA19279D7F00045CD3 /* GKLoadingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKLoadingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B4ABFB19279D7F00045CD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1B4AC0319279D7F00045CD3 /* GKLoadingViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKLoadingViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C1B4AC0519279D7F00045CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1B4AC0719279D7F00045CD3 /* GKLoadingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKLoadingViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B4ABD619279D7E00045CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4ABDF19279D7E00045CD3 /* CoreGraphics.framework in Frameworks */,
+				C1B4ABE119279D7E00045CD3 /* UIKit.framework in Frameworks */,
+				C1B4ABDD19279D7E00045CD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B4ABF719279D7F00045CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4ABFC19279D7F00045CD3 /* XCTest.framework in Frameworks */,
+				C1B4ABFE19279D7F00045CD3 /* UIKit.framework in Frameworks */,
+				C1B4ABFD19279D7F00045CD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1B4ABD019279D7E00045CD3 = {
+			isa = PBXGroup;
+			children = (
+				C1B4ABE219279D7E00045CD3 /* GKLoadingViewDemo */,
+				C1B4AC0119279D7F00045CD3 /* GKLoadingViewDemoTests */,
+				C1B4ABDB19279D7E00045CD3 /* Frameworks */,
+				C1B4ABDA19279D7E00045CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B4ABDA19279D7E00045CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4ABD919279D7E00045CD3 /* GKLoadingViewDemo.app */,
+				C1B4ABFA19279D7F00045CD3 /* GKLoadingViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B4ABDB19279D7E00045CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4ABDC19279D7E00045CD3 /* Foundation.framework */,
+				C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */,
+				C1B4ABE019279D7E00045CD3 /* UIKit.framework */,
+				C1B4ABFB19279D7F00045CD3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B4ABE219279D7E00045CD3 /* GKLoadingViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4ABEB19279D7E00045CD3 /* GKAppDelegate.h */,
+				C1B4ABEC19279D7E00045CD3 /* GKAppDelegate.m */,
+				C1B4ABEE19279D7E00045CD3 /* Main.storyboard */,
+				C1B4ABF119279D7E00045CD3 /* GKViewController.h */,
+				C1B4ABF219279D7E00045CD3 /* GKViewController.m */,
+				C1B4ABF419279D7F00045CD3 /* Images.xcassets */,
+				C1B4ABE319279D7E00045CD3 /* Supporting Files */,
+			);
+			path = GKLoadingViewDemo;
+			sourceTree = "<group>";
+		};
+		C1B4ABE319279D7E00045CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4ABE419279D7E00045CD3 /* GKLoadingViewDemo-Info.plist */,
+				C1B4ABE519279D7E00045CD3 /* InfoPlist.strings */,
+				C1B4ABE819279D7E00045CD3 /* main.m */,
+				C1B4ABEA19279D7E00045CD3 /* GKLoadingViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1B4AC0119279D7F00045CD3 /* GKLoadingViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4AC0719279D7F00045CD3 /* GKLoadingViewDemoTests.m */,
+				C1B4AC0219279D7F00045CD3 /* Supporting Files */,
+			);
+			path = GKLoadingViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C1B4AC0219279D7F00045CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4AC0319279D7F00045CD3 /* GKLoadingViewDemoTests-Info.plist */,
+				C1B4AC0419279D7F00045CD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B4ABD819279D7E00045CD3 /* GKLoadingViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B4AC0B19279D7F00045CD3 /* Build configuration list for PBXNativeTarget "GKLoadingViewDemo" */;
+			buildPhases = (
+				C1B4ABD519279D7E00045CD3 /* Sources */,
+				C1B4ABD619279D7E00045CD3 /* Frameworks */,
+				C1B4ABD719279D7E00045CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKLoadingViewDemo;
+			productName = GKLoadingViewDemo;
+			productReference = C1B4ABD919279D7E00045CD3 /* GKLoadingViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B4ABF919279D7F00045CD3 /* GKLoadingViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B4AC0E19279D7F00045CD3 /* Build configuration list for PBXNativeTarget "GKLoadingViewDemoTests" */;
+			buildPhases = (
+				C1B4ABF619279D7F00045CD3 /* Sources */,
+				C1B4ABF719279D7F00045CD3 /* Frameworks */,
+				C1B4ABF819279D7F00045CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B4AC0019279D7F00045CD3 /* PBXTargetDependency */,
+			);
+			name = GKLoadingViewDemoTests;
+			productName = GKLoadingViewDemoTests;
+			productReference = C1B4ABFA19279D7F00045CD3 /* GKLoadingViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B4ABD119279D7E00045CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aurora Apps";
+				TargetAttributes = {
+					C1B4ABF919279D7F00045CD3 = {
+						TestTargetID = C1B4ABD819279D7E00045CD3;
+					};
+				};
+			};
+			buildConfigurationList = C1B4ABD419279D7E00045CD3 /* Build configuration list for PBXProject "GKLoadingViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B4ABD019279D7E00045CD3;
+			productRefGroup = C1B4ABDA19279D7E00045CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B4ABD819279D7E00045CD3 /* GKLoadingViewDemo */,
+				C1B4ABF919279D7F00045CD3 /* GKLoadingViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B4ABD719279D7E00045CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4ABF519279D7F00045CD3 /* Images.xcassets in Resources */,
+				C1B4ABE719279D7E00045CD3 /* InfoPlist.strings in Resources */,
+				C1B4ABF019279D7E00045CD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B4ABF819279D7F00045CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4AC0619279D7F00045CD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B4ABD519279D7E00045CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4ABED19279D7E00045CD3 /* GKAppDelegate.m in Sources */,
+				C1B4ABF319279D7E00045CD3 /* GKViewController.m in Sources */,
+				C1B4ABE919279D7E00045CD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B4ABF619279D7F00045CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4AC0819279D7F00045CD3 /* GKLoadingViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B4AC0019279D7F00045CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B4ABD819279D7E00045CD3 /* GKLoadingViewDemo */;
+			targetProxy = C1B4ABFF19279D7F00045CD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B4ABE519279D7E00045CD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B4ABE619279D7E00045CD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1B4ABEE19279D7E00045CD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B4ABEF19279D7E00045CD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B4AC0419279D7F00045CD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B4AC0519279D7F00045CD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B4AC0919279D7F00045CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1B4AC0A19279D7F00045CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B4AC0C19279D7F00045CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKLoadingViewDemo/GKLoadingViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GKLoadingViewDemo/GKLoadingViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1B4AC0D19279D7F00045CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKLoadingViewDemo/GKLoadingViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GKLoadingViewDemo/GKLoadingViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1B4AC0F19279D7F00045CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKLoadingViewDemo.app/GKLoadingViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKLoadingViewDemo/GKLoadingViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GKLoadingViewDemoTests/GKLoadingViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1B4AC1019279D7F00045CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKLoadingViewDemo.app/GKLoadingViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKLoadingViewDemo/GKLoadingViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GKLoadingViewDemoTests/GKLoadingViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B4ABD419279D7E00045CD3 /* Build configuration list for PBXProject "GKLoadingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B4AC0919279D7F00045CD3 /* Debug */,
+				C1B4AC0A19279D7F00045CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B4AC0B19279D7F00045CD3 /* Build configuration list for PBXNativeTarget "GKLoadingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B4AC0C19279D7F00045CD3 /* Debug */,
+				C1B4AC0D19279D7F00045CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1B4AC0E19279D7F00045CD3 /* Build configuration list for PBXNativeTarget "GKLoadingViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B4AC0F19279D7F00045CD3 /* Debug */,
+				C1B4AC1019279D7F00045CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B4ABD119279D7E00045CD3 /* Project object */;
+}
