@@ -12,4 +12,4 @@ Install
 
 Example
 ================
-![image](https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif)
+[https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif](https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif)
