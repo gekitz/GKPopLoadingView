@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B9934AE5DBEA262B97F282C /* GKPopLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99383A1AE72F8BE2DB10D3 /* GKPopLoadingView.m */; };
 		C1B4ABDD19279D7E00045CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABDC19279D7E00045CD3 /* Foundation.framework */; };
 		C1B4ABDF19279D7E00045CD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */; };
 		C1B4ABE119279D7E00045CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABE019279D7E00045CD3 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		C1B4ABFE19279D7F00045CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4ABE019279D7E00045CD3 /* UIKit.framework */; };
 		C1B4AC0619279D7F00045CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1B4AC0419279D7F00045CD3 /* InfoPlist.strings */; };
 		C1B4AC0819279D7F00045CD3 /* GKLoadingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4AC0719279D7F00045CD3 /* GKLoadingViewDemoTests.m */; };
+		DBE9FFB509E540E7B0096152 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D367B42A0399446FA49AB322 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B9932B3DCCB7162F893CAB3 /* GKPopLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPopLoadingView.h; sourceTree = "<group>"; };
+		5B99383A1AE72F8BE2DB10D3 /* GKPopLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPopLoadingView.m; sourceTree = "<group>"; };
 		C1B4ABD919279D7E00045CD3 /* GKLoadingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKLoadingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B4ABDC19279D7E00045CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		C1B4AC0319279D7F00045CD3 /* GKLoadingViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKLoadingViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C1B4AC0519279D7F00045CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1B4AC0719279D7F00045CD3 /* GKLoadingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKLoadingViewDemoTests.m; sourceTree = "<group>"; };
+		D367B42A0399446FA49AB322 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD504C052E0D49EF9DA1E864 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				C1B4ABDF19279D7E00045CD3 /* CoreGraphics.framework in Frameworks */,
 				C1B4ABE119279D7E00045CD3 /* UIKit.framework in Frameworks */,
 				C1B4ABDD19279D7E00045CD3 /* Foundation.framework in Frameworks */,
+				DBE9FFB509E540E7B0096152 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B993E71526A222FD48CA2A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B9932B3DCCB7162F893CAB3 /* GKPopLoadingView.h */,
+				5B99383A1AE72F8BE2DB10D3 /* GKPopLoadingView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		C1B4ABD019279D7E00045CD3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,8 @@
 				C1B4AC0119279D7F00045CD3 /* GKLoadingViewDemoTests */,
 				C1B4ABDB19279D7E00045CD3 /* Frameworks */,
 				C1B4ABDA19279D7E00045CD3 /* Products */,
+				5B993E71526A222FD48CA2A9 /* Classes */,
+				FD504C052E0D49EF9DA1E864 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +123,7 @@
 				C1B4ABDE19279D7E00045CD3 /* CoreGraphics.framework */,
 				C1B4ABE019279D7E00045CD3 /* UIKit.framework */,
 				C1B4ABFB19279D7F00045CD3 /* XCTest.framework */,
+				D367B42A0399446FA49AB322 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B4AC0B19279D7F00045CD3 /* Build configuration list for PBXNativeTarget "GKLoadingViewDemo" */;
 			buildPhases = (
+				E4C63DA46B66461F9DAF6ECD /* Check Pods Manifest.lock */,
 				C1B4ABD519279D7E00045CD3 /* Sources */,
 				C1B4ABD619279D7E00045CD3 /* Frameworks */,
 				C1B4ABD719279D7E00045CD3 /* Resources */,
+				E6375FC6DD144C5BB2265A87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +237,8 @@
 			mainGroup = C1B4ABD019279D7E00045CD3;
 			productRefGroup = C1B4ABDA19279D7E00045CD3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				C1B4ABD819279D7E00045CD3 /* GKLoadingViewDemo */,
@@ -245,6 +268,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4C63DA46B66461F9DAF6ECD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6375FC6DD144C5BB2265A87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1B4ABD519279D7E00045CD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -253,6 +309,7 @@
 				C1B4ABED19279D7E00045CD3 /* GKAppDelegate.m in Sources */,
 				C1B4ABF319279D7E00045CD3 /* GKViewController.m in Sources */,
 				C1B4ABE919279D7E00045CD3 /* main.m in Sources */,
+				5B9934AE5DBEA262B97F282C /* GKPopLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +431,7 @@
 		};
 		C1B4AC0C19279D7F00045CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD504C052E0D49EF9DA1E864 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +445,7 @@
 		};
 		C1B4AC0D19279D7F00045CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD504C052E0D49EF9DA1E864 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

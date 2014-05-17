@@ -7,23 +7,37 @@
 //
 
 #import "GKViewController.h"
+#import "GKPopLoadingView.h"
 
 @interface GKViewController ()
-
+@property (nonatomic, strong) GKPopLoadingView *loadingView;
 @end
 
 @implementation GKViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+#pragma mark -
+#pragma mark Property
+
+- (GKPopLoadingView *)loadingView {
+    if (!_loadingView) {
+        _loadingView = [[GKPopLoadingView alloc] init];
+    }
+    return _loadingView;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -
+#pragma mark Public Methods
+
+- (IBAction)showLoadingView:(id)sender {
+    [self.loadingView show:YES withTitle:@"Loading..."];
+
+    [self performSelector:@selector(hideLoadingView) withObject:nil afterDelay:4];
 }
+
+- (void)hideLoadingView {
+    [self.loadingView show:NO withTitle:@"Loading..."];
+}
+
+
 
 @end

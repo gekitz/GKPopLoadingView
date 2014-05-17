@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GKViewController : UIViewController
-
+- (IBAction)showLoadingView:(id)sender;
 @end
