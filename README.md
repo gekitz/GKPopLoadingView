@@ -12,4 +12,4 @@ Install
 
 Example
 ================
-[https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif](https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif)
+[https://github.com/gekitz/GKPopLoadingView/blob/master/Files/GKLoadingView.gif](https://github.com/gekitz/GKPopLoadingView/blob/master/Files/GKLoadingView.gif)
