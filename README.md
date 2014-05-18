@@ -9,7 +9,9 @@ Install
 ================
 `pod install GKPopLoadingView`
 
-
+Author
+================
+Georg Kitz, you can find me on [Twitter](http://twitter.com/gekitz)
 Example
 ================
 ![https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif](https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif)
