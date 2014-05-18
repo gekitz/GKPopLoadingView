@@ -12,4 +12,4 @@ Install
 
 Example
 ================
-[https://github.com/gekitz/GKPopLoadingView/blob/master/Files/GKLoadingView.gif](https://github.com/gekitz/GKPopLoadingView/blob/master/Files/GKLoadingView.gif)
+![https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif](https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif)
