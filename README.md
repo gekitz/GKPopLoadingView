@@ -7,7 +7,9 @@ are build with Facebook's POP
 
 Install
 ================
-`pod 'GKPopLoadingView'`
+```ruby
+pod 'GKPopLoadingView'
+```
 
 Author
 ================
