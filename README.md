@@ -7,9 +7,14 @@ are build with Facebook's POP
 
 Install
 ================
-`pod install GKPopLoadingView`
+```ruby
+pod 'GKPopLoadingView'
+```
 
+Author
+================
+Georg Kitz, you can find me on [Twitter](http://twitter.com/gekitz)
 
 Example
 ================
-[https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif](https://www.dropbox.com/s/lndnlk822kdr119/GKLoadingView.gif)
+![https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif](https://raw.githubusercontent.com/gekitz/GKPopLoadingView/master/Files/GKLoadingView.gif)
