@@ -151,12 +151,13 @@ static NSUInteger const kWidth = 80;
     if (self.visible == show && self.visible) {
         return;
     }
-    
+
     self.visible = show;
-    
+
+    [self _positionAlert:nil];
+
     if (show) {
 
-        self.transform = CGAffineTransformIdentity;
         self.layer.opacity = 0.0f;
 
         [self.overlayWindow addSubview:self];
