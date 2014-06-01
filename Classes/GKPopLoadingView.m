@@ -160,8 +160,12 @@ static NSUInteger const kWidth = 80;
 
         self.layer.opacity = 0.0f;
 
+        BOOL isStatusBarHidden = [UIApplication sharedApplication].isStatusBarHidden;
+
         [self.overlayWindow addSubview:self];
         [self.overlayWindow makeKeyAndVisible];
+
+        [self _hideStatusBarIfNeeded:isStatusBarHidden];
 
         [self _registerNotifications];
         [self _showAnimation];
@@ -169,6 +173,21 @@ static NSUInteger const kWidth = 80;
 
         [self _hideAnimation];
         [self _unregisterNotifications];
+    }
+}
+
+- (void)_hideStatusBarIfNeeded:(BOOL)isStatusBarHidden {
+
+    if (isStatusBarHidden) {
+
+        UIApplication *app = [UIApplication sharedApplication];
+        SEL statusBarWindow = @selector(statusBarWindow);
+
+        if ([app respondsToSelector:statusBarWindow]) {
+
+            UIWindow *statusBar = [app performSelector:statusBarWindow];
+            statusBar.hidden = YES;
+        }
     }
 }
 
